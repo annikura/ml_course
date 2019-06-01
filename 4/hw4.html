@@ -13056,6 +13056,539 @@ ul.typeahead-list  > li > a.pull-right {
 .ansi-bold { font-weight: bold; }
 
     </style>
+<style type="text/css">
+    /*
+    Name:       Oceans16 Dark
+    Author:     Kyle Dunovan (http://github.com/dunovank)
+*/
+
+body {background-color: #262931;}
+
+a {color: #8997b0; font-family: 'Helvetica', sans-serif; }
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt, div.CodeMirror pre {font-family:'Hack', monospace; font-size: 11pt;}
+
+/* Hiding the ipython log */
+div#ipython_notebook {display: none;}
+
+/* INTRO PAGE */
+.toolbar_info {color: #8997b0; font-size: 12pt; border: 0; font-family: 'Helvetica', sans-serif; text-shadow: none !important; }
+.list_container {color: #8997b0; font-size: 12pt; border: 0; font-family: 'Helvetica', sans-serif;text-shadow: none !important; }
+.breadcrumb>li {text-shadow:0 0px 0; color:#8997b0; font-family: 'Helvetica', sans-serif; font-size: 12pt}
+.list_container a {color: #8997b0; font-family: 'Helvetica', sans-serif; font-size: 12pt; border: 0; text-shadow: none !important; }
+.item_icon {color: #2c85f7;}
+.running_notebook_icon:before {
+    color: #02ac65 !important;
+}
+.item_buttons .running-indicator {
+    padding-top: 4px;
+    color: #02ac65;
+}
+
+/*<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>
+*****************************************
+COMMENT THIS LINE OUT TO RESTORE TOOLBAR
+*****************************************
+<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>> */
+div#maintoolbar {display: none !important;}
+
+div.list_container a:hover {color: #eeeeee;}
+.list_header {
+    font-weight: normal;
+    background-color: #2A2F3C;
+}
+div.list_container :hover {
+    background-color: #2A2F3C;
+    color: #eeeeee;
+}
+div.notebook_list_header {
+      background: #262931;
+
+}
+.list_container > div {
+    border-bottom: 1px solid rgba(53, 87, 120, 0.55);
+    font-size: 12pt;
+}
+.panel-default {
+    border-color: rgba(53, 87, 120, 0.55);
+}
+.panel {
+    line-height: 22px;
+    fontsize: 12px;
+    margin-bottom: 18px;
+    background-color: #262931;
+    color: #8997b0;
+    border: 2px solid rgba(53, 87, 120, 0.55);
+    box-shadow: none;
+}
+.dropdown-menu {
+    border: 1px solid rgba(53, 87, 120, 0.95);
+    background-color: #39414F;
+    background: #39414F;
+    box-shadow: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    list-style: outside none none;
+    font-size: 12pt;
+    text-align: left;
+}
+.dropdown-menu:hover{
+    background-color: #39414F;
+    border: 1px solid rgba(53, 87, 120, 0.95);
+    box-shadow: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.modal-content {
+    position: relative;
+    background-color: #39414F;
+    border: 1px solid rgba(53, 87, 120, 0.15);
+    border-radius: 3px;
+    box-shadow: 0px 3px 9px rgba(53, 87, 120, 0.25);
+    background-clip: padding-box;
+    outline: 0px none;
+}
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12pt;
+    line-height: 1.42857;
+    color: #5c6b89;
+    text-decoration: underline;
+    text-decoration-color: rgba(53, 87, 120, 0.95);
+    white-space: nowrap;
+}
+.dropdown-menu > li > a {
+    border: 1px solid #39414F;
+    display: block;
+    padding: none;
+    clear: both;
+    background-clip: padding-box;
+    font-weight: normal;
+    line-height: 1.42857;
+    color: #8997b0;
+    white-space: nowrap;
+    background-color: #39414F;
+    background: #39414F;
+}
+.dropdown-menu > li > a:hover {
+    background-clip: padding-box;
+    background: rgba(53, 87, 120, 0.95);
+    border: 1px solid #39414F;
+    color: #eeeeee;
+    padding: none;
+}
+.dropdown-menu .divider {
+    height: 2px;
+    margin: 8px 0px;
+    overflow: hidden;
+    background-color: rgba(53, 87, 120, 0.95);
+}
+.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+    color: #5A647B;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid rgba(53, 87, 120, 0.95);
+    min-height: 16.4286px;
+}
+#running .panel-group .panel .panel-heading {
+    background-color: #262931;
+    padding: 4px 7px;
+    line-height: 22px;
+}
+#running .panel-group .panel .panel-heading a:hover {
+    color: #2c85f7;
+}
+#running .panel-group .panel .panel-body .list_container .list_item {
+    border-bottom: 1px solid rgba(53, 87, 120, 0.55);
+}
+
+#project_name > .breadcrumb {
+    font-weight: normal;
+    color: #2c85f7;
+}
+.rendered_html pre, .rendered_html code {
+    font-size: 12pt;
+    color: #8997b0;
+    line-height: 100%;
+    background: #303845;
+}
+body {
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    line-height: 1.42857;
+    color: #8997b0;
+}
+
+#kernel_indicator {
+    float: right !important;
+    color: #2c85f7;
+}
+#kernel_indicator .kernel_indicator_name {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13pt;
+}
+#modal_indicator {
+    float: right !important;
+    color: #2c85f7;
+}
+.notebook_app {
+    background-color: #262931;
+}
+.notebook_app #header {
+    box-shadow: none !important;
+    background-color: #262931;
+}
+#notebook-container {
+    padding: 15px;
+    background-color: #262931;
+    min-height: 0px;
+    box-shadow: none;
+}
+#header {
+    box-shadow: none;
+    background-color: #262931;
+    position: relative;
+    z-index: 100;
+}
+#header-container {
+    padding-bottom: 5px;
+    display: none !important;
+    box-shadow: none;
+}
+#header .header-bar {
+    background: #262931;
+}
+/* text in output area (i.e. print some_list) */
+div.output_html {color: #1e2429;}
+
+/* Formatting code in text, code*/
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+  border: 1px #a4b8cb solid;
+  color: #a4b8cb;
+  background-color: #303845 !important;
+  align-content: left !important;
+}
+.navbar-default {
+    background-color: #262931;
+    border-color: #262931;
+}
+#menubar .navbar {
+    border-top: 1px;
+    border-radius: 0 0 2px 2px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #8997b0;
+    font-size: 13pt;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: rgba(53, 108, 180, .5);
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: rgba(53, 108, 180, .5);
+}
+.btn {
+    color: #8997b0;
+    background: #262931;
+    font-size: 12pt;
+    font-weight: normal;
+    border: 0 none !important;
+    box-shadow: none !important;
+    text-shadow: none;
+    vertical-align: 0px;
+}
+
+.btn-group > .btn-mini {
+    color: #8997b0;
+    background: #262931;
+    font-size: 11pt;
+    font-weight: normal;
+    border: 0 none !important;
+    box-shadow: none !important;
+    text-shadow: none;
+}
+.btn:hover {
+    color: #2c85f7;
+    background: #262931;
+    background-color: #262931;
+    background-image: none;
+}
+.btn-group > .btn-mini:hover {
+    color: #2c85f7;
+    background: #262931;
+    background-color: #262931;
+    background-image: none;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ipython_tooltip {
+    border: 2px solid #3572C6;
+    box-shadow: none;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #39414F;
+}
+
+.ipython_tooltip .tooltiptext pre {
+    border: 0px none;
+    border-radius: 0px;
+    background-color: #39414F;
+    color: #CFD2D9;
+}
+/* Formatting code in markdown cells */
+div.text_cell_render {
+    font-family: 'Helvetica', sans-serif;
+    background: #303845;
+    font-weight: 310;
+    color: #8997b0;
+}
+/* Formatting code in markdown cells */
+div.text_cell_render pre {
+    color: #8997b0;
+    background-color: #303845;
+}
+div.text_cell {
+    max-width: 100%;
+    color: #8997b0;
+}
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    font-family: 'Helvetica', sans-serif;
+    background: #303845;
+    font-weight: 300;
+    color: #8997b0;
+    line-height: 90%;
+}
+
+/* text in output area (i.e. print some_list) */
+div.output_html {color: #a4b8cb;}
+
+/* Formatting code in text, code*/
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+  border: 1px #a4b8cb solid;
+  color: #a4b8cb;
+  background-color: #39414F !important;
+  align-content: left !important;
+}
+
+button.close {
+    padding: 0px;
+    cursor: pointer;
+    background: transparent none repeat scroll 0% 0%;
+    border: 0px none;
+}
+.close {
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    color: #3572C6;
+    text-shadow: 0px 1px 0px rgba(53, 87, 120, 0.2);
+    opacity: 0.3;
+}
+.close:hover {
+    color: #0095ff;
+    text-shadow: 0px 1px 0px rgba(53, 87, 120, 0.2);
+    opacity: 0.9;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 13pt;
+    line-height: 1.6;
+    color: #6ea3d4;
+    background-color: #303845;
+    background-image: none;
+    border: 1px solid rgba(53, 87, 120, 0.95);
+    border-radius: 2px;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid rgba(53, 87, 120, 0.95);
+}
+.input-form-control:hover:active {
+      background-color:  rgba(53, 87, 120, 0.95);
+      selected:  rgba(53, 87, 120, 0.95);
+}
+
+/* TOOLTIP DIMENSIONS */
+div#tooltip.ipython_tooltip {
+    max-width: 900px;
+}
+div.tooltiptext.bigtooltip {
+    overflow: auto;
+    height: 400px;
+    width: 900px;
+}
+
+span.ansiblack {color: #2b303b;}
+span.ansiblue {color: #6ea3d4;}
+span.ansigray {color: #B4B7B4;}
+span.ansigreen {color: #8FC198;}
+span.ansipurple {color: #BE8fC1;}
+span.ansicyan {color: #7BC6C0;}
+span.ansiyellow {color: #DDD7A3;}
+span.ansired {color: #DB797C;}
+
+div.output_stderr {background-color: #DB797C;}
+div.output_stderr pre {color: #D0D4E6;}
+
+.cm-s-ipython.CodeMirror {background: #303845; color: #D0D4E6;}
+.cm-s-ipython div.CodeMirror-selected {background: #3C4555 !important;}
+.cm-s-ipython .CodeMirror-gutters {background: #39414F; border: 0px; border-radius:0px;}
+.cm-s-ipython .CodeMirror-linenumber {color: #5A647B !important; font-size: 11pt;}
+.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #0095ff !important;}
+.cm-s-ipython span.cm-comment {color: #667FB1; font-style: italic !important;}
+.cm-s-ipython span.cm-atom {color: #CAA6EC;}
+.cm-s-ipython span.cm-number {color: #EFAA8E;}
+.cm-s-ipython span.cm-property {color: #77ABE7;}
+.cm-s-ipython span.cm-attribute {color: #E39194;}
+.cm-s-ipython span.cm-keyword {color: #CAA6EC; font-weight: normal;}
+.cm-s-ipython span.cm-string {color: #8FCA9A; font-weight: normal;}
+.cm-s-ipython span.cm-operator {color: #77ABE7; font-weight: normal;}
+.cm-s-ipython span.cm-builtin {color: #E39194; font-weight: normal;}
+.cm-s-ipython span.cm-boolean {color: #E39194;}
+.cm-s-ipython span.cm-variable {color: #D0D4E6;}
+.cm-s-ipython span.cm-variable-2 {color: #E39194;}
+
+.cm-s-ipython span.cm-def {color: #77ABE7; font-weight: normal;}
+.cm-s-ipython span.cm-error {background: rgba(191, 97, 106, .3) !important;}
+.cm-s-ipython span.cm-tag {color: #CAA6EC;}
+.cm-s-ipython span.cm-link {color: #E39194;}
+.cm-s-ipython span.cm-storage {color: #CAA6EC;}
+.cm-s-ipython span.cm-entity {color: #E39194;}
+.cm-s-ipython span.cm-class {color: #E5DEA5;}
+.cm-s-ipython span.cm-support {color: #77ABE7;}
+.cm-s-ipython span.cm-qualifier {color: #77ABE7;}
+.cm-s-ipython span.cm-property {color: #77ABE7;}
+
+/* Set CodeCell font-size*/
+div.CodeMirror pre {font-size: 11pt !important;}
+div.CodeMirror pre {line-height: 1.5 !important;}
+
+div.CodeMirror span.CodeMirror-matchingbracket { color: #eeeeee; background: rgba(53, 108, 180, .75) !important ; }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #eeeeee; background: rgba(191, 97, 106, .3) !important ; }
+.cm-s-ipython .CodeMirror-matchingbracket { color: #eeeeee; background: rgba(53, 108, 180, .75)  !important; }
+.cm-s-ipython .CodeMirror-nonmatchingbracket { color: #eeeeee; background: rgba(191, 97, 106, .3) !important; }
+
+
+div.cell { border: medium solid #262931; padding: 0px; border-radius: 0px; }
+div.cell.selected { border: medium solid #3572C6; padding: 0px; border-radius: 0px; }
+.edit_mode div.cell.selected {border: medium solid #39485b !important; padding: 0px; border-radius: 0px; }
+div.cell.edit_mode {border: medium solid #39485b !important; padding: 0px; border-radius: 0px;}
+
+div.prompt {
+    padding: 0.3em;
+    margin: 0px;
+    font-family: monospace;
+    text-align: left;
+    line-height: 1.21429em;
+    min-width: 11ex;
+    font-size: 9.5pt;
+}
+div.input_area {
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+/*Input and output cells formatting*/
+div.prompt.input_prompt {
+    font-family: 'Hack', monospace;
+    border-right: 2px solid rgba(53, 108, 180, .4);
+    font-weight: bold;
+    font-size: 9.5pt;
+    color: #5A647B;
+    background-color: #303845;
+    width: 1em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+div.prompt.output_prompt {
+    font-family: 'Hack', monospace;
+    font-weight: bold;
+    background-color: #39414F;
+    color: #39414F;
+    font-size: 9.5pt;
+    width: 1em;
+    margin-bottom: 8px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div.out_prompt_overlay.prompt {
+    font-family: 'Hack', monospace;
+    font-weight: bold;
+    font-size: 9.5pt;
+    width: 1em;
+    margin-bottom: 8px;
+    background-color: #39414F;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+div.out_prompt_overlay.prompt:hover {
+    font-family: 'Hack', monospace;
+    font-weight: bold;
+    font-size: 9.5pt;
+    width: 1em;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #39414F;
+    box-shadow: #303845 2px 2px 6px 4px inset;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+div.output_wrapper {
+    background-color:#39414F;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    border: 0px;
+}
+div.output_subarea.output_text.output_stream.output_stdout,div.output_subarea.output_text {
+    padding-top: 1em;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #39414F;
+    color: #CFD2D9;
+}
+div.output_area pre {
+    color: #CFD2D9;
+    font-size: 10pt;
+}
+div.output_subarea {
+    overflow-x: auto;
+    padding: 1.0em;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    flex: 1;
+    max-width: calc(100% - 14ex);
+}
+img {
+    border: 4px rgb(137, 151, 176) solid;
+}
+
+    </style>
 
 
 <style type="text/css">
@@ -13089,7 +13622,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -13120,7 +13653,6 @@ div#notebook {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">plotly</span>
-<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="k">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 <span class="kn">import</span> <span class="nn">sklearn</span>
 <span class="kn">import</span> <span class="nn">math</span>
 <span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
@@ -13154,7 +13686,22 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script><script>requirejs.config({paths: { 'plotly': ['https://cdn.plot.ly/plotly-latest.min']},});if(!window._Plotly) {require(['plotly'],function(plotly) {window._Plotly=plotly;});}</script>
+        <script type="text/javascript">
+        window.PlotlyConfig = {MathJaxConfig: 'local'};
+        if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
+        if (typeof require !== 'undefined') {
+        require.undef("plotly");
+        requirejs.config({
+            paths: {
+                'plotly': ['https://cdn.plot.ly/plotly-latest.min']
+            }
+        });
+        require(['plotly'], function(Plotly) {
+            window._Plotly = Plotly;
+        });
+        }
+        </script>
+        
 </div>
 
 </div>
@@ -13195,7 +13742,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">noisysine_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;noisysine.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
@@ -13209,14 +13756,14 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">simple_regression</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
     <span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
     <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
     
-    <span class="n">w</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">pinv</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="p">))</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">T</span><span class="p">)</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+    <span class="n">w</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="p">))</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">T</span><span class="p">)</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">w</span>
     
 <span class="k">def</span> <span class="nf">predict_simple_regression</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
@@ -13232,7 +13779,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">noisysine_simple_df</span> <span class="o">=</span> <span class="n">noisysine_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13279,7 +13826,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 2 , r2 =  -0.18551880451921088
+<pre>Degree = 2 , r2 =  0.08980941568933853
 </pre>
 </div>
 </div>
@@ -13291,7 +13838,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="540df4a0-4f3d-44bd-bdd4-9498fd3a418a" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("540df4a0-4f3d-44bd-bdd4-9498fd3a418a", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "08c7dfef-637b-42ed-aa65-13b4f5e15849"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.012063041360772884, 0.03210427391484177, 0.04669903957894145, 0.055847338353071964, 0.05780453523142541, -0.017446350058078708, -0.1288863594299014, -0.42354904618232303], "type": "scatter", "uid": "09bb4c31-9d52-43cd-a8d5-918579fc2a44"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("540df4a0-4f3d-44bd-bdd4-9498fd3a418a"));});</script>
+<div>
+        
+        
+            <div id="009b27b9-14ff-4553-bdfe-9eed281b95a5" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("009b27b9-14ff-4553-bdfe-9eed281b95a5")) {
+                    Plotly.newPlot(
+                        '009b27b9-14ff-4553-bdfe-9eed281b95a5',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "a4aa042c-5d97-450d-8786-d300dd6a7966", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "09db3e86-c726-452e-b65b-2b2818d59c93", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.020370410672408117, 0.055632902035737036, 0.09483081412701212, 0.12363846773588853, 0.12237875922263533, -0.015116502159038148, -0.15065874799478118, -0.37357107279403334]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('009b27b9-14ff-4553-bdfe-9eed281b95a5');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13302,7 +13892,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 3 , r2 =  -0.2617000888009575
+<pre>Degree = 3 , r2 =  0.09160806354810858
 </pre>
 </div>
 </div>
@@ -13314,7 +13904,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="f9a74cc3-3761-4cd4-9537-f7dafe9884df" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("f9a74cc3-3761-4cd4-9537-f7dafe9884df", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "af739353-6cec-4b3e-bff4-9b1245ec6a04"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [-0.02323201124740029, -0.05611159959115579, -0.07327120360732141, -0.07758193674446151, -0.05914124417592247, 0.009303252998901723, -0.026617468903285424, -0.4707232580057852], "type": "scatter", "uid": "aa4bf5a6-940a-413e-be58-1f99d99e790e"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("f9a74cc3-3761-4cd4-9537-f7dafe9884df"));});</script>
+<div>
+        
+        
+            <div id="47f07505-da87-458e-9ff4-ea670c3d5012" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("47f07505-da87-458e-9ff4-ea670c3d5012")) {
+                    Plotly.newPlot(
+                        '47f07505-da87-458e-9ff4-ea670c3d5012',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "8c15b943-ccca-49c8-829d-7ec711b8480e", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "2ff67d5e-3a92-452c-9910-9218ecf7c943", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [-0.002087722187421579, -0.0005118599780476818, 0.012822845953791202, 0.04915932796419923, 0.06333278281190982, 0.040147698301770784, -0.0814899449094757, -0.37408374105088305]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('47f07505-da87-458e-9ff4-ea670c3d5012');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13325,7 +13958,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 4 , r2 =  -0.26003540412341297
+<pre>Degree = 4 , r2 =  0.12814303830480978
 </pre>
 </div>
 </div>
@@ -13337,7 +13970,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="6e8b5166-dbc5-40be-a76a-93932e8f503b" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("6e8b5166-dbc5-40be-a76a-93932e8f503b", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "3ecfc5ea-9e44-4c4f-9544-c2a62b865477"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [-0.0227841920470465, -0.055144563590948215, -0.0721733459562964, -0.07661973375590146, -0.05884371294779972, 0.008631207689419051, -0.026676752575187423, -0.47045430540263267], "type": "scatter", "uid": "3a834c5f-370b-418a-8143-b0cf088c0388"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("6e8b5166-dbc5-40be-a76a-93932e8f503b"));});</script>
+<div>
+        
+        
+            <div id="0f34dda3-edce-4614-ad6e-088f7b912ebe" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("0f34dda3-edce-4614-ad6e-088f7b912ebe")) {
+                    Plotly.newPlot(
+                        '0f34dda3-edce-4614-ad6e-088f7b912ebe',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "7cda904a-23b1-43c1-81f9-502b70bbb169", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "b559bd80-6dfd-4cb2-8cd9-acf3cbe8a109", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.02348241423340419, 0.054187612103212726, 0.07117640452709856, 0.06213886483322456, 0.055193137670192516, 0.023251608385234324, -0.05030247127884824, -0.33984037722557847]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('0f34dda3-edce-4614-ad6e-088f7b912ebe');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13348,7 +14024,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 5 , r2 =  0.8424313102593054
+<pre>Degree = 5 , r2 =  0.9058064864992379
 </pre>
 </div>
 </div>
@@ -13360,7 +14036,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="015742dd-1ab7-4914-b3d3-2b68ff1c1765" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("015742dd-1ab7-4914-b3d3-2b68ff1c1765", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "1868c0c1-eccc-4234-b9bc-097f1efdd07b"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.736941542052445, 1.2807418399614101, 1.0560359190863455, 0.4969889974085943, -0.5371296114345103, 0.15743845298336367, 0.712157599469883, -1.274917858442791], "type": "scatter", "uid": "b3e76d1c-66f5-4006-adc1-22133df3e9f6"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("015742dd-1ab7-4914-b3d3-2b68ff1c1765"));});</script>
+<div>
+        
+        
+            <div id="8f4062a8-f145-4621-8cfe-7ae37d46c8dd" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("8f4062a8-f145-4621-8cfe-7ae37d46c8dd")) {
+                    Plotly.newPlot(
+                        '8f4062a8-f145-4621-8cfe-7ae37d46c8dd',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "4470bc55-faab-443b-aac7-a195dd1ce21e", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "c2672ec7-d85e-450d-9e3e-5d8343ee72bf", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.7081985111533099, 1.2236289035180437, 0.7428484804635646, -0.5447707086699243, -0.7287999860016701, 0.7513296693959077, 0.24951474541883556, -1.2572199408512006]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('8f4062a8-f145-4621-8cfe-7ae37d46c8dd');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13371,7 +14090,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hydrodynamics_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;hydrodynamics.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
@@ -13385,7 +14104,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hydrodynamics_simple_df</span> <span class="o">=</span> <span class="n">hydrodynamics_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13422,7 +14141,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 2 , r2 =  0.8744537603557666
+<pre>Degree = 2 , r2 =  0.9195476583157262
 </pre>
 </div>
 </div>
@@ -13440,7 +14159,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">ridge_regression</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.001</span><span class="p">):</span>
@@ -13466,7 +14185,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[116]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">noisysine_ridge_df</span> <span class="o">=</span> <span class="n">noisysine_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13478,7 +14197,7 @@ div#notebook {
     
     <span class="n">real_y</span> <span class="o">=</span> <span class="n">noisysine_ridge_test_df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">])[</span><span class="s1">&#39;y&#39;</span><span class="p">]</span>
     <span class="n">pred_y</span> <span class="o">=</span> <span class="n">predict_simple_regression</span><span class="p">(</span>
-                <span class="n">ridge_regression</span><span class="p">(</span><span class="n">noisysine_ridge_train_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;y&#39;</span><span class="p">]),</span> <span class="n">noisysine_ridge_train_df</span><span class="p">[</span><span class="s1">&#39;y&#39;</span><span class="p">],</span> <span class="mi">0</span><span class="p">),</span>
+                <span class="n">ridge_regression</span><span class="p">(</span><span class="n">noisysine_ridge_train_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;y&#39;</span><span class="p">]),</span> <span class="n">noisysine_ridge_train_df</span><span class="p">[</span><span class="s1">&#39;y&#39;</span><span class="p">],</span> <span class="mf">0.000001</span><span class="p">),</span>
                 <span class="n">noisysine_ridge_test_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;y&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">]))</span>
     
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Degree =&quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s2">&quot;, r2 = &quot;</span><span class="p">,</span> <span class="n">sklearn</span><span class="o">.</span><span class="n">metrics</span><span class="o">.</span><span class="n">r2_score</span><span class="p">(</span><span class="n">real_y</span><span class="p">,</span> <span class="n">pred_y</span><span class="p">))</span>
@@ -13513,7 +14232,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 2 , r2 =  -0.18551880451921088
+<pre>Degree = 2 , r2 =  0.0898094157071262
 </pre>
 </div>
 </div>
@@ -13525,7 +14244,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="678014b8-fb36-444f-b444-321ef20a8515" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("678014b8-fb36-444f-b444-321ef20a8515", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "8f35fe28-6522-4c26-945b-484cc90825ab"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.012063041360772884, 0.03210427391484177, 0.04669903957894145, 0.055847338353071964, 0.05780453523142541, -0.017446350058078708, -0.1288863594299014, -0.42354904618232303], "type": "scatter", "uid": "9030913f-8cab-4b1d-ac40-0d56e3ce82cb"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("678014b8-fb36-444f-b444-321ef20a8515"));});</script>
+<div>
+        
+        
+            <div id="88c5f1c5-3734-4d72-9b49-5ba591add190" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("88c5f1c5-3734-4d72-9b49-5ba591add190")) {
+                    Plotly.newPlot(
+                        '88c5f1c5-3734-4d72-9b49-5ba591add190',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "bd4d7fe9-284e-46ce-a166-12c9df86278a", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "6396882f-38e2-4993-95d3-17e7a29cab81", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.020370410691395717, 0.05563290208899797, 0.0948308142224284, 0.12363846787688458, 0.12237875937322562, -0.015116502043907465, -0.15065874794512668, -0.37357107286367075]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('88c5f1c5-3734-4d72-9b49-5ba591add190');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13536,7 +14298,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 3 , r2 =  -0.2617000888009575
+<pre>Degree = 3 , r2 =  0.09160806354120388
 </pre>
 </div>
 </div>
@@ -13548,7 +14310,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="5bf64310-e75d-4b38-81a0-7327b73137a7" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("5bf64310-e75d-4b38-81a0-7327b73137a7", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "9c31ce76-20eb-4d50-b80b-98ad4f84d808"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [-0.02323201124740029, -0.05611159959115579, -0.07327120360732141, -0.07758193674446151, -0.05914124417592247, 0.009303252998901723, -0.026617468903285424, -0.4707232580057852], "type": "scatter", "uid": "0f0cba18-bf44-4861-8599-7f8215f236d5"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("5bf64310-e75d-4b38-81a0-7327b73137a7"));});</script>
+<div>
+        
+        
+            <div id="aaea1105-befa-46f3-a215-04d6c3e40dba" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("aaea1105-befa-46f3-a215-04d6c3e40dba")) {
+                    Plotly.newPlot(
+                        'aaea1105-befa-46f3-a215-04d6c3e40dba',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "ecc83d54-e2cc-48ef-8803-02af0bc8256b", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "06c5a58d-5eeb-4446-9781-4cb006e5cd99", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [-0.0020877222065181903, -0.0005118600266567107, 0.01282284588015012, 0.049159327889178074, 0.06333278274662058, 0.040147698324537795, -0.08148994486681194, -0.3740837410407254]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('aaea1105-befa-46f3-a215-04d6c3e40dba');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13559,7 +14364,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 4 , r2 =  -0.26003540412341297
+<pre>Degree = 4 , r2 =  0.12814303895441537
 </pre>
 </div>
 </div>
@@ -13571,7 +14376,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="b2153e61-bbc7-4f34-86a8-3cc8a08d51de" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("b2153e61-bbc7-4f34-86a8-3cc8a08d51de", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "bd7cae49-bd1c-4390-823c-be066ddd18e6"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [-0.0227841920470465, -0.055144563590948215, -0.0721733459562964, -0.07661973375590146, -0.05884371294779972, 0.008631207689419051, -0.026676752575187423, -0.47045430540263267], "type": "scatter", "uid": "25e003aa-8270-466f-bd66-062c26c6ff87"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("b2153e61-bbc7-4f34-86a8-3cc8a08d51de"));});</script>
+<div>
+        
+        
+            <div id="32fc3946-99ee-495f-a5d5-28af5a1edddc" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("32fc3946-99ee-495f-a5d5-28af5a1edddc")) {
+                    Plotly.newPlot(
+                        '32fc3946-99ee-495f-a5d5-28af5a1edddc',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "069fe746-7823-4141-abca-eb44a7e29cab", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "9b19ea6f-477a-4c1a-b5c9-14b09fdd5fdd", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.023482414848331266, 0.054187613483044045, 0.07117640617996322, 0.06213886568800869, 0.05519313806751858, 0.023251607897628812, -0.05030247107313013, -0.3398403766979925]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('32fc3946-99ee-495f-a5d5-28af5a1edddc');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13582,7 +14430,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 5 , r2 =  0.8424313102593054
+<pre>Degree = 5 , r2 =  0.9058064710499513
 </pre>
 </div>
 </div>
@@ -13594,7 +14442,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="49019a9b-465f-459a-852f-0a9e9719722d" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("49019a9b-465f-459a-852f-0a9e9719722d", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "fea7205e-ec5e-4aee-a689-a0cbed4924c3"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.736941542052445, 1.2807418399614101, 1.0560359190863455, 0.4969889974085943, -0.5371296114345103, 0.15743845298336367, 0.712157599469883, -1.274917858442791], "type": "scatter", "uid": "632d5f3f-e92a-449f-adec-b25d74086d68"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("49019a9b-465f-459a-852f-0a9e9719722d"));});</script>
+<div>
+        
+        
+            <div id="63fb80dc-6f0a-42fe-b811-0849e20a624b" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("63fb80dc-6f0a-42fe-b811-0849e20a624b")) {
+                    Plotly.newPlot(
+                        '63fb80dc-6f0a-42fe-b811-0849e20a624b',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "d53674c7-2d62-40fe-be1b-a5bf5b1773ef", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "03ec4f2f-aa99-421f-a53c-56d4717366a4", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.708198577819883, 1.2236290286387905, 0.7428485817086381, -0.5447707200039268, -0.7288000248002928, 0.7513297012062026, 0.24951477249480547, -1.2572199839038092]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('63fb80dc-6f0a-42fe-b811-0849e20a624b');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13606,14 +14497,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>А вот тут можно выжать ещё полпроцента.</p>
+<p>А вот тут можно выжать ещё доли процента.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[129]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hydrodynamics_ridge_df</span> <span class="o">=</span> <span class="n">hydrodynamics_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13650,7 +14541,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 2 , r2 =  0.8803989736804806
+<pre>Degree = 2 , r2 =  0.9211620395493217
 </pre>
 </div>
 </div>
@@ -13668,7 +14559,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[197]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">noisysine_lasso_df</span> <span class="o">=</span> <span class="n">noisysine_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13717,7 +14608,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 2 , r2 =  0.15782835542253426 features used = 1
+<pre>Degree = 2 , r2 =  0.2562725537816791 features used = 1
 </pre>
 </div>
 </div>
@@ -13729,7 +14620,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="b564554a-203b-45a5-99f4-b371040157b4" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("b564554a-203b-45a5-99f4-b371040157b4", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "962b42c2-3ee0-4c62-8a39-7a259329a215"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.4800841585016475, 0.4091555940075919, 0.34091913034413035, 0.275374767511263, 0.1523623443373105, -0.08504363315664365, -0.21302815047509605, -0.37249366272730133], "type": "scatter", "uid": "3776e285-e07b-4f2b-af2f-95825bc91c97"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("b564554a-203b-45a5-99f4-b371040157b4"));});</script>
+<div>
+        
+        
+            <div id="acc8e1cf-da0d-4e9a-8761-acb169453030" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("acc8e1cf-da0d-4e9a-8761-acb169453030")) {
+                    Plotly.newPlot(
+                        'acc8e1cf-da0d-4e9a-8761-acb169453030',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "88eb1879-9db0-49e7-bb2c-d9de7effddbe", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "f6f03126-b437-43d3-bac6-f5b9e98c99b0", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.5281371236543524, 0.46372868112187826, 0.37016995738278885, 0.22238259130996457, 0.1661179889364819, -0.11422309554927856, -0.22536318090664142, -0.3452939470731411]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('acc8e1cf-da0d-4e9a-8761-acb169453030');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13740,7 +14674,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 3 , r2 =  0.35174459288731696 features used = 1
+<pre>Degree = 3 , r2 =  0.41764868365808305 features used = 1
 </pre>
 </div>
 </div>
@@ -13752,7 +14686,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="efb5dbbe-d373-4519-aa3f-239c19ae9a86" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("efb5dbbe-d373-4519-aa3f-239c19ae9a86", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "5b24478f-af7b-43a3-9215-dc2014bebef7"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.8903135628741932, 0.549937624241, 0.28847454015836926, 0.09681959922594585, -0.11348469878970024, -0.07615815863553776, 0.01707178912909324, -0.46476764767171463], "type": "scatter", "uid": "6672bfe7-61ec-45cd-bc1e-2304151ffa94"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("efb5dbbe-d373-4519-aa3f-239c19ae9a86"));});</script>
+<div>
+        
+        
+            <div id="cc414223-dcbb-4ee0-b6e2-e4979babd50f" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("cc414223-dcbb-4ee0-b6e2-e4979babd50f")) {
+                    Plotly.newPlot(
+                        'cc414223-dcbb-4ee0-b6e2-e4979babd50f',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "3b616098-f231-4674-9da6-97302914e90a", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "87953c5d-e148-486a-bd56-437fba92eaae", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.9232383683712357, 0.5980479432926836, 0.248504116479487, -0.038213862133151366, -0.07482819740931435, 0.05284929480292089, 0.03292883351357734, -0.3195159989098082]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('cc414223-dcbb-4ee0-b6e2-e4979babd50f');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13763,7 +14740,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 4 , r2 =  0.17515584186320698 features used = 2
+<pre>Degree = 4 , r2 =  0.3890777715357262 features used = 2
 </pre>
 </div>
 </div>
@@ -13775,7 +14752,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="9057886f-6ded-405f-8977-945225bb3c17" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("9057886f-6ded-405f-8977-945225bb3c17", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "9d22a79f-c7c9-40d4-9f8c-1ce61cf89e25"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [1.05142364916709, 0.46613735691378255, 0.09019831774634568, -0.122132455307844, -0.21572709913090282, 0.08782505964477494, 0.0479508608782524, -0.5393872220662459], "type": "scatter", "uid": "91138388-03be-4d39-abdb-f2dc94f1372c"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("9057886f-6ded-405f-8977-945225bb3c17"));});</script>
+<div>
+        
+        
+            <div id="21653f4e-7e54-4919-aac5-88113e56930c" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("21653f4e-7e54-4919-aac5-88113e56930c")) {
+                    Plotly.newPlot(
+                        '21653f4e-7e54-4919-aac5-88113e56930c',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "0603cf1a-5b85-4102-8043-f2814ee5c51d", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "7fd0d8d0-6f6c-4b9c-95d6-6ef163ca5255", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [1.0682649784187033, 0.5498063284287087, 0.09234787104544084, -0.10955779901671647, -0.08079182943579877, 0.11908669869526278, -0.05306828755784565, -0.43259320443632276]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('21653f4e-7e54-4919-aac5-88113e56930c');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13786,7 +14806,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 5 , r2 =  0.7906390417755521 features used = 3
+<pre>Degree = 5 , r2 =  0.8688702521562265 features used = 3
 </pre>
 </div>
 </div>
@@ -13798,7 +14818,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="566f4e08-1c91-406f-8b33-366d7fbb539d" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("566f4e08-1c91-406f-8b33-366d7fbb539d", [{"mode": "markers+lines", "name": "real values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.51179, 0.9198, 1.0144, 0.46667, -0.48845, 0.20948000000000003, 0.8536600000000001, -0.75927], "type": "scatter", "uid": "1c2b7660-dce1-4437-8388-496c930fdd57"}, {"mode": "markers+lines", "name": "pred values", "x": [1, 3, 5, 7, 11, 20, 26, 36], "y": [0.9452391506126132, 1.329762290030825, 1.0313653628268977, 0.45207240822798694, -0.5528332419555437, 0.17087290599240296, 0.6938858666373511, -1.2522330066722853], "type": "scatter", "uid": "6a25caa3-0845-474e-ac92-926fa00369c8"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("566f4e08-1c91-406f-8b33-366d7fbb539d"));});</script>
+<div>
+        
+        
+            <div id="2a4c5557-837f-4c4c-bf82-a12282650711" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("2a4c5557-837f-4c4c-bf82-a12282650711")) {
+                    Plotly.newPlot(
+                        '2a4c5557-837f-4c4c-bf82-a12282650711',
+                        [{"mode": "markers+lines", "name": "real values", "type": "scatter", "uid": "213710da-95e6-4063-a0eb-58a8f6313f4a", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.51179, 0.9198, 1.0336, -0.48845, -0.8957700000000001, 0.78146, -0.087621, -0.9716100000000001]}, {"mode": "markers+lines", "name": "pred values", "type": "scatter", "uid": "f7d35fee-76bf-4c3d-9f8e-3c87871642a1", "x": [1, 3, 6, 11, 13, 24, 29, 35], "y": [0.9267890182357017, 1.2798975805915767, 0.7077271674794641, -0.5581553796905948, -0.7227062487594589, 0.738714882938817, 0.23254125402151438, -1.2341985666711377]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('2a4c5557-837f-4c4c-bf82-a12282650711');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -13809,7 +14872,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[198]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hydrodynamics_lasso_df</span> <span class="o">=</span> <span class="n">hydrodynamics_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13849,7 +14912,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Degree = 2 , r2 =  0.8903741946774509 features used = 8
+<pre>Degree = 2 , r2 =  0.8849071931241844 features used = 9
 </pre>
 </div>
 </div>
@@ -13867,7 +14930,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[200]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -13880,7 +14943,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[199]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tsp_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;tsp.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
@@ -13893,7 +14956,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[204]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">draw_path</span><span class="p">(</span><span class="n">sequence</span><span class="p">,</span> <span class="n">df</span><span class="p">):</span>
@@ -13924,7 +14987,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[201]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sequence</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tsp_df</span><span class="o">.</span><span class="n">index</span><span class="p">)))</span>
@@ -13952,7 +15015,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[205]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="n">mk_best_path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
@@ -13974,7 +15037,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Best length: 30485
+<pre>Best length: 31240
 </pre>
 </div>
 </div>
@@ -13986,7 +15049,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="b6e9fe58-4a0c-4a95-8a03-9f44119364f6" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("b6e9fe58-4a0c-4a95-8a03-9f44119364f6", [{"mode": "markers+lines", "name": "path", "x": [345, 345, 660, 660, 480, 480, 565, 565, 1220, 1220, 650, 650, 560, 560, 830, 830, 415, 415, 555, 555, 720, 720, 475, 475, 595, 595, 25, 25, 25, 25, 95, 95, 520, 520, 700, 700, 575, 575, 945, 945, 700, 700, 770, 770, 510, 510, 845, 845, 845, 845, 830, 830, 1740, 1740, 580, 580, 1150, 1150, 880, 880, 685, 685, 685, 685, 420, 420, 300, 300, 725, 725, 835, 835, 1605, 1605, 1465, 1465, 795, 795, 1250, 1250, 605, 605, 1320, 1320, 1215, 1215, 525, 525, 875, 875, 760, 760, 410, 410, 975, 975, 1530, 1530, 1170, 1170, 1340, 1340, 145], "y": [750, 180, 180, 415, 415, 575, 575, 580, 580, 1130, 1130, 365, 365, 610, 610, 635, 635, 815, 815, 635, 635, 960, 960, 360, 360, 230, 230, 185, 185, 260, 260, 585, 585, 500, 500, 665, 665, 685, 685, 580, 580, 610, 610, 875, 875, 655, 655, 680, 680, 485, 485, 245, 245, 1175, 1175, 1160, 1160, 660, 660, 595, 595, 610, 610, 555, 555, 465, 465, 370, 370, 625, 625, 620, 620, 200, 200, 645, 645, 400, 400, 625, 625, 315, 315, 245, 245, 1000, 1000, 920, 920, 650, 650, 250, 250, 580, 580, 5, 5, 65, 65, 725, 725, 665, 665], "type": "scatter", "uid": "e508a9bf-48d5-4264-868c-e2172546ddf5"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("b6e9fe58-4a0c-4a95-8a03-9f44119364f6"));});</script>
+<div>
+        
+        
+            <div id="4854d22e-c2c5-4e57-b801-50cb4e1a59bd" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("4854d22e-c2c5-4e57-b801-50cb4e1a59bd")) {
+                    Plotly.newPlot(
+                        '4854d22e-c2c5-4e57-b801-50cb4e1a59bd',
+                        [{"mode": "markers+lines", "name": "path", "type": "scatter", "uid": "46b3f89c-246b-467c-8dbe-6b43f6b875f0", "x": [560, 560, 685, 685, 720, 720, 415, 415, 880, 880, 605, 605, 525, 525, 555, 555, 835, 835, 875, 875, 660, 660, 1320, 1320, 700, 700, 420, 420, 595, 595, 725, 725, 300, 300, 845, 845, 845, 845, 830, 830, 1530, 1530, 1215, 1215, 1465, 1465, 685, 685, 25, 25, 475, 475, 650, 650, 1150, 1150, 510, 510, 345, 345, 480, 480, 410, 410, 25, 25, 1740, 1740, 795, 795, 700, 700, 145, 145, 770, 770, 565, 565, 830, 830, 1250, 1250, 1220, 1220, 580, 580, 1605, 1605, 945, 945, 975, 975, 760, 760, 95, 95, 520, 520, 1340, 1340, 575, 575, 1170], "y": [365, 595, 595, 635, 635, 635, 635, 660, 660, 625, 625, 1000, 1000, 815, 815, 625, 625, 920, 920, 180, 180, 315, 315, 500, 500, 555, 555, 360, 360, 370, 370, 465, 465, 655, 655, 680, 680, 610, 610, 5, 5, 245, 245, 200, 200, 610, 610, 230, 230, 960, 960, 1130, 1130, 1160, 1160, 875, 875, 750, 750, 415, 415, 250, 250, 185, 185, 245, 245, 645, 645, 580, 580, 665, 665, 610, 610, 575, 575, 485, 485, 400, 400, 580, 580, 1175, 1175, 620, 620, 685, 685, 580, 580, 650, 650, 260, 260, 585, 585, 725, 725, 665, 665, 65, 65]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('4854d22e-c2c5-4e57-b801-50cb4e1a59bd');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -14004,7 +15110,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[222]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rw_best_path</span> <span class="o">=</span> <span class="kc">None</span>
@@ -14012,6 +15118,15 @@ div#notebook {
 
 <span class="k">def</span> <span class="nf">dist_to</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">j</span><span class="p">):</span>
     <span class="k">return</span> <span class="nb">abs</span><span class="p">(</span><span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="nb">abs</span><span class="p">(</span><span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">choices</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">weights</span><span class="p">):</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">weights</span><span class="p">)</span> <span class="o">*</span> <span class="n">r</span>
+    <span class="n">cumsm</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)):</span>
+        <span class="n">cumsm</span> <span class="o">+=</span> <span class="n">weights</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">cumsm</span> <span class="o">&gt;=</span> <span class="n">s</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">points</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
 
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">):</span>
     <span class="n">sz</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tsp_df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
@@ -14023,7 +15138,7 @@ div#notebook {
         <span class="n">vs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">not_visited</span><span class="p">)</span>
         <span class="n">j</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="k">if</span> <span class="p">(</span><span class="n">last_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">last_y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
-            <span class="n">j</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choices</span><span class="p">(</span><span class="n">vs</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="n">dist_to</span><span class="p">(</span><span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span><span class="p">,</span> <span class="n">x</span><span class="p">),</span> <span class="n">vs</span><span class="p">)))[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">j</span> <span class="o">=</span> <span class="n">choices</span><span class="p">(</span><span class="n">vs</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="n">dist_to</span><span class="p">(</span><span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span><span class="p">,</span> <span class="n">x</span><span class="p">),</span> <span class="n">vs</span><span class="p">)))</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">j</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">vs</span><span class="p">)</span>    
         <span class="n">not_visited</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
@@ -14045,7 +15160,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[223]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="n">rw_best_path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
@@ -14067,7 +15182,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Best length: 17800
+<pre>Best length: 20960
 </pre>
 </div>
 </div>
@@ -14079,7 +15194,50 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div id="ecea1e3b-5d56-4371-ba24-ac4bc35b437e" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("ecea1e3b-5d56-4371-ba24-ac4bc35b437e", [{"mode": "markers+lines", "name": "path", "x": [510, 510, 525, 525, 475, 475, 555, 555, 520, 520, 565, 565, 975, 975, 1220, 1220, 830, 830, 760, 760, 795, 795, 845, 845, 945, 945, 685, 685, 845, 845, 880, 880, 145, 145, 835, 835, 830, 830, 770, 770, 720, 720, 700, 700, 480, 480, 1215, 1215, 1170, 1170, 1465, 1465, 1530, 1530, 560, 560, 725, 725, 685, 685, 700, 700, 605, 605, 580, 580, 650, 650, 875, 875, 595, 595, 575, 575, 415, 415, 345, 345, 300, 300, 410, 410, 660, 660, 95, 95, 25, 25, 25, 25, 420, 420, 1250, 1250, 1320, 1320, 1740, 1740, 1605, 1605, 1150, 1150, 1340], "y": [875, 1000, 1000, 960, 960, 815, 815, 585, 585, 575, 575, 580, 580, 580, 580, 485, 485, 650, 650, 645, 645, 655, 655, 685, 685, 610, 610, 680, 680, 660, 660, 665, 665, 625, 625, 610, 610, 610, 610, 635, 635, 500, 500, 415, 415, 245, 245, 65, 65, 200, 200, 5, 5, 365, 365, 370, 370, 595, 595, 580, 580, 625, 625, 1175, 1175, 1130, 1130, 920, 920, 360, 360, 665, 665, 635, 635, 750, 750, 465, 465, 250, 250, 180, 180, 260, 260, 185, 185, 230, 230, 555, 555, 400, 400, 315, 315, 245, 245, 620, 620, 1160, 1160, 725, 725], "type": "scatter", "uid": "6f10b15e-78a9-4a29-9c39-8fa21bc59aea"}], {}, {"showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"})});</script><script type="text/javascript">window.addEventListener("resize", function(){window._Plotly.Plots.resize(document.getElementById("ecea1e3b-5d56-4371-ba24-ac4bc35b437e"));});</script>
+<div>
+        
+        
+            <div id="27f9ce18-0302-4569-b854-2d42140091d0" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("27f9ce18-0302-4569-b854-2d42140091d0")) {
+                    Plotly.newPlot(
+                        '27f9ce18-0302-4569-b854-2d42140091d0',
+                        [{"mode": "markers+lines", "name": "path", "type": "scatter", "uid": "fcf70c65-7015-481c-a099-61be67538f8b", "x": [835, 835, 830, 830, 685, 685, 720, 720, 845, 845, 795, 795, 770, 770, 565, 565, 700, 700, 700, 700, 480, 480, 300, 300, 420, 420, 845, 845, 830, 830, 725, 725, 25, 25, 25, 25, 95, 95, 410, 410, 685, 685, 560, 560, 595, 595, 475, 475, 525, 525, 1340, 1340, 1605, 1605, 760, 760, 1150, 1150, 650, 650, 580, 580, 975, 975, 945, 945, 875, 875, 145, 145, 575, 575, 605, 605, 415, 415, 345, 345, 1320, 1320, 555, 555, 510, 510, 520, 520, 880, 880, 1215, 1215, 1250, 1250, 1465, 1465, 1740, 1740, 1530, 1530, 1170, 1170, 660, 660, 1220], "y": [625, 485, 485, 595, 595, 635, 635, 655, 655, 645, 645, 610, 610, 575, 575, 580, 580, 500, 500, 415, 415, 465, 465, 555, 555, 680, 680, 610, 610, 370, 370, 185, 185, 230, 230, 260, 260, 250, 250, 610, 610, 365, 365, 360, 360, 960, 960, 1000, 1000, 725, 725, 620, 620, 650, 650, 1160, 1160, 1130, 1130, 1175, 1175, 580, 580, 685, 685, 920, 920, 665, 665, 665, 665, 625, 625, 635, 635, 750, 750, 315, 315, 815, 815, 875, 875, 585, 585, 660, 660, 245, 245, 400, 400, 200, 200, 245, 245, 5, 5, 65, 65, 180, 180, 580, 580]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('27f9ce18-0302-4569-b854-2d42140091d0');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
 </div>
 
 </div>
@@ -14097,7 +15255,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hc_best_path</span> <span class="o">=</span> <span class="kc">None</span>
@@ -14109,23 +15267,271 @@ div#notebook {
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tsp_df</span><span class="o">.</span><span class="n">index</span><span class="p">)):</span>
     <span class="n">not_visited</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">sz</span><span class="p">))</span>
     <span class="n">not_visited</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">sequence</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="p">]</span>
     
     <span class="n">cur_length</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span>
-    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">sz</span><span class="p">):</span>
+    <span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span> <span class="o">=</span> <span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">],</span> <span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">sz</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
         <span class="n">new_x</span><span class="p">,</span> <span class="n">new_y</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span>
+        <span class="n">new_best</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">new_j</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">not_visited</span><span class="p">:</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">new_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">new_y</span> <span class="n">i</span><span class="p">)</span>
-        <span class="n">not_visited</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">new_best</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">dist_to</span><span class="p">(</span><span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">new_best</span><span class="p">:</span>
+                <span class="n">new_best</span> <span class="o">=</span> <span class="n">dist_to</span><span class="p">(</span><span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+                <span class="n">new_x</span><span class="p">,</span> <span class="n">new_y</span> <span class="o">=</span> <span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">],</span> <span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span>
+                <span class="n">new_j</span> <span class="o">=</span> <span class="n">j</span>
+        <span class="n">not_visited</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">new_j</span><span class="p">)</span>
+        <span class="n">sequence</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_j</span><span class="p">)</span>
         
+        <span class="n">cur_length</span> <span class="o">+=</span> <span class="n">new_best</span>         
+        <span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span> <span class="o">=</span> <span class="n">new_x</span><span class="p">,</span> <span class="n">new_y</span>
+        
+    <span class="k">if</span> <span class="p">(</span><span class="n">hc_best_length</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">hc_best_length</span> <span class="o">&gt;</span> <span class="n">cur_length</span><span class="p">):</span>
+        <span class="n">hc_best_length</span> <span class="o">=</span> <span class="n">cur_length</span>
+        <span class="n">hc_best_path</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="n">hc_best_path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Best length:&quot;</span><span class="p">,</span> <span class="n">hc_best_length</span><span class="p">)</span>
+<span class="n">draw_path</span><span class="p">(</span><span class="n">hc_best_path</span><span class="p">,</span> <span class="n">tsp_df</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Best length: 9680
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<div>
+        
+        
+            <div id="062fc55d-c93a-469c-b3be-96f009be7b38" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("062fc55d-c93a-469c-b3be-96f009be7b38")) {
+                    Plotly.newPlot(
+                        '062fc55d-c93a-469c-b3be-96f009be7b38',
+                        [{"mode": "markers+lines", "name": "path", "type": "scatter", "uid": "eaff2813-3362-47c6-8591-db0ba283bd4d", "x": [1215, 1215, 1320, 1320, 1250, 1250, 1220, 1220, 975, 975, 945, 945, 880, 880, 845, 845, 845, 845, 835, 835, 830, 830, 770, 770, 760, 760, 795, 795, 720, 720, 685, 685, 685, 685, 700, 700, 700, 700, 830, 830, 725, 725, 595, 595, 560, 560, 480, 480, 420, 420, 415, 415, 520, 520, 565, 565, 605, 605, 575, 575, 555, 555, 510, 510, 475, 475, 525, 525, 580, 580, 650, 650, 875, 875, 1150, 1150, 1340, 1340, 1605, 1605, 1740, 1740, 1465, 1465, 1530, 1530, 1170, 1170, 660, 660, 410, 410, 300, 300, 345, 345, 145, 145, 95, 95, 25, 25, 25], "y": [245, 315, 315, 400, 400, 580, 580, 580, 580, 685, 685, 660, 660, 655, 655, 680, 680, 625, 625, 610, 610, 610, 610, 650, 650, 645, 645, 635, 635, 610, 610, 595, 595, 580, 580, 500, 500, 485, 485, 370, 370, 360, 360, 365, 365, 415, 415, 555, 555, 635, 635, 585, 585, 575, 575, 625, 625, 665, 665, 815, 815, 875, 875, 960, 960, 1000, 1000, 1175, 1175, 1130, 1130, 920, 920, 1160, 1160, 725, 725, 620, 620, 245, 245, 200, 200, 5, 5, 65, 65, 180, 180, 250, 250, 465, 465, 750, 750, 665, 665, 260, 260, 230, 230, 185, 185]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('062fc55d-c93a-469c-b3be-96f009be7b38');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&#1047;&#1072;&#1076;&#1072;&#1085;&#1080;&#1077;-7">&#1047;&#1072;&#1076;&#1072;&#1085;&#1080;&#1077; 7<a class="anchor-link" href="#&#1047;&#1072;&#1076;&#1072;&#1085;&#1080;&#1077;-7">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.special</span> <span class="k">import</span> <span class="n">expit</span>
+
+<span class="n">sequence</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tsp_df</span><span class="o">.</span><span class="n">index</span><span class="p">))))</span>
+<span class="n">sa_best_path</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">sa_best_length</span> <span class="o">=</span> <span class="kc">None</span>
+
+<span class="k">def</span> <span class="nf">seq_len</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
+    <span class="n">cur_length</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">sequence</span><span class="p">:</span>
         <span class="n">cur_x</span><span class="p">,</span> <span class="n">cur_y</span> <span class="o">=</span> <span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="s1">&#39;x&#39;</span><span class="p">],</span> <span class="n">tsp_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="s1">&#39;y&#39;</span><span class="p">]</span>
         <span class="k">if</span> <span class="p">(</span><span class="n">last_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">last_y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
             <span class="n">cur_length</span> <span class="o">+=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">last_x</span> <span class="o">-</span> <span class="n">cur_x</span><span class="p">)</span> <span class="o">+</span> <span class="nb">abs</span><span class="p">(</span><span class="n">last_y</span> <span class="o">-</span> <span class="n">cur_y</span><span class="p">)</span>
         <span class="n">last_x</span><span class="p">,</span> <span class="n">last_y</span> <span class="o">=</span> <span class="n">cur_x</span><span class="p">,</span> <span class="n">cur_y</span>
+    <span class="k">return</span> <span class="n">cur_length</span>
+
+<span class="n">sz</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tsp_df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">):</span>
+    <span class="n">sequence</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">sz</span><span class="p">))</span>
+    <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">):</span>
+        <span class="n">cur_length</span> <span class="o">=</span> <span class="n">seq_len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span>
+        <span class="n">r1</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">sz</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">r2</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">r1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">sz</span><span class="p">)</span>
+        <span class="n">new_seq</span> <span class="o">=</span> <span class="n">sequence</span><span class="p">[:</span><span class="n">r1</span><span class="p">]</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">sequence</span><span class="p">[</span><span class="n">r1</span><span class="p">:</span><span class="n">r2</span><span class="p">]))</span> <span class="o">+</span> <span class="n">sequence</span><span class="p">[</span><span class="n">r2</span><span class="p">:]</span>
+        <span class="n">new_length</span> <span class="o">=</span> <span class="n">seq_len</span><span class="p">(</span><span class="n">new_seq</span><span class="p">)</span>
         
-    <span class="k">if</span> <span class="p">(</span><span class="n">rw_best_length</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">rw_best_length</span> <span class="o">&gt;</span> <span class="n">cur_length</span><span class="p">):</span>
-        <span class="n">rw_best_length</span> <span class="o">=</span> <span class="n">cur_length</span>
-        <span class="n">rw_best_path</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">expit</span><span class="p">(</span><span class="n">new_length</span> <span class="o">-</span> <span class="n">cur_length</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>  <span class="o">&gt;</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()):</span>
+            <span class="n">sequence</span> <span class="o">=</span> <span class="n">new_seq</span>
+    <span class="n">cur_length</span> <span class="o">=</span> <span class="n">seq_len</span><span class="p">(</span><span class="n">sequence</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="p">(</span><span class="n">sa_best_length</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">sa_best_length</span> <span class="o">&gt;</span> <span class="n">cur_length</span><span class="p">):</span>
+        <span class="n">sa_best_length</span> <span class="o">=</span> <span class="n">cur_length</span>
+        <span class="n">sa_best_path</span> <span class="o">=</span> <span class="n">sequence</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="n">sa_best_path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Best length:&quot;</span><span class="p">,</span> <span class="n">sa_best_length</span><span class="p">)</span>
+<span class="n">draw_path</span><span class="p">(</span><span class="n">sa_best_path</span><span class="p">,</span> <span class="n">tsp_df</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Best length: 34480
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<div>
+        
+        
+            <div id="21e89ed6-5cab-4184-b6d4-5f72b7821fcf" class="plotly-graph-div" style="height:525px; width:100%;"></div>
+            <script type="text/javascript">
+                require(["plotly"], function(Plotly) {
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    window.PLOTLYENV.BASE_URL='https://plot.ly';
+                    
+                if (document.getElementById("21e89ed6-5cab-4184-b6d4-5f72b7821fcf")) {
+                    Plotly.newPlot(
+                        '21e89ed6-5cab-4184-b6d4-5f72b7821fcf',
+                        [{"mode": "markers+lines", "name": "path", "type": "scatter", "uid": "11a3d82e-e5c4-4e39-9fa4-ad3ac3dc608f", "x": [1150, 1150, 410, 410, 725, 725, 420, 420, 685, 685, 95, 95, 345, 345, 580, 580, 1250, 1250, 880, 880, 770, 770, 830, 830, 795, 795, 25, 25, 525, 525, 575, 575, 1170, 1170, 650, 650, 1320, 1320, 975, 975, 560, 560, 945, 945, 510, 510, 660, 660, 520, 520, 720, 720, 555, 555, 845, 845, 830, 830, 1530, 1530, 1740, 1740, 1605, 1605, 760, 760, 145, 145, 835, 835, 1465, 1465, 1215, 1215, 700, 700, 480, 480, 475, 475, 595, 595, 845, 845, 300, 300, 25, 25, 415, 415, 565, 565, 605, 605, 1340, 1340, 700, 700, 875, 875, 685, 685, 1220], "y": [1160, 250, 250, 370, 370, 555, 555, 595, 595, 260, 260, 750, 750, 1175, 1175, 400, 400, 660, 660, 610, 610, 610, 610, 645, 645, 230, 230, 1000, 1000, 665, 665, 65, 65, 1130, 1130, 315, 315, 580, 580, 365, 365, 685, 685, 875, 875, 180, 180, 585, 585, 635, 635, 815, 815, 655, 655, 485, 485, 5, 5, 245, 245, 620, 620, 650, 650, 665, 665, 625, 625, 200, 200, 245, 245, 580, 580, 415, 415, 960, 960, 360, 360, 680, 680, 465, 465, 185, 185, 635, 635, 575, 575, 625, 625, 725, 725, 500, 500, 920, 920, 610, 610, 580, 580]}],
+                        {},
+                        {"responsive": true, "showLink": false, "linkText": "Export to plot.ly", "plotlyServerURL": "https://plot.ly"}
+                    ).then(function(){
+                            
+var gd = document.getElementById('21e89ed6-5cab-4184-b6d4-5f72b7821fcf');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })
+                };
+                });
+            </script>
+        </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
